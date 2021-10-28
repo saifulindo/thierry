@@ -14,7 +14,7 @@
     position: absolute; 
     bottom: 10px; 
     left: 10px;
-}
+    }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -274,8 +274,8 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
           <p>Monthly digest of whats new and exciting from us.</p>
           <div class="d-flex w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newslette  r1" type="text" class="form-control" placeholder="Email address" onfocus="this.value=''">
-            <button class="btn btn-primary" type="button" onclick="document.getElementById('newsletter1').value = 'Sorry, Not Activate'">Subscribe</button>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" onfocus="this.value=''">
+            <button class="btn btn-primary" type="button" onclick="document.getElementById('newsletter1').value = ''">Subscribe</button>
           </div>
         </form>
       </div>
@@ -300,7 +300,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
   	// Show toast on page load
   	$("#myToast").toast("show");
 });
-/*
+
 document.addEventListener("DOMContentLoaded", function(){
   	var toastElementList = [].slice.call(document.querySelectorAll(".toast"));
 	var toastList = toastElementList.map(function(element){
@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function(){
 var toastElList = [].slice.call(document.querySelectorAll('.toast'))
 var toastList = toastElList.map(function (toastEl) {
   return new bootstrap.Toast(toastEl, option)
-});*/
+});
 </script>
 </script> 
 </body>
